@@ -19,3 +19,33 @@ h1{
 h3{
     color: #79B4B7;
 }
+
+/**********************work.html***********************/
+.workBody{
+    background-color: #D4ECDD;
+}
+
+/* .profileImage{
+    height: 200px;          Difference between class and ID is that 
+                              Multiple elements can have same class
+                              But ID is only for one single element
+                              In this case profileImg is ID only for that image
+                              cannot be reused elesewhere
+} */
+
+#profileImg{
+    height: 200px;
+}
+
+.workHr{
+    background-color: #D4ECDD;  /*have to mention bg color in external css for hr*/
+    border-style:none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 10%;
+}
+
+.workHeading{
+    color:#345B63 ;
+}
